@@ -1,0 +1,218 @@
+[ 14%] Building C object thirdparty/CMakeFiles/sqlite3.dir/sqlite3/sqlite3.c.o
+[ 28%] Linking C static library libsqlite3.a
+[ 28%] Built target sqlite3
+[ 42%] Building CXX object tests/CMakeFiles/test_ormpp.dir/test_ormpp.cpp.o
+clang++: warning: -ldl: 'linker' input unused [-Wunused-command-line-argument]
+[ 57%] Building CXX object tests/CMakeFiles/test_ormpp.dir/main.cpp.o
+clang++: warning: -ldl: 'linker' input unused [-Wunused-command-line-argument]
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3725:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3725 | DOCTEST_TO_STRING_OVERLOAD(char, "%d")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3726:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3726 | DOCTEST_TO_STRING_OVERLOAD(char signed, "%d")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3727:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3727 | DOCTEST_TO_STRING_OVERLOAD(char unsigned, "%u")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3728:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3728 | DOCTEST_TO_STRING_OVERLOAD(int short, "%d")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3729:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3729 | DOCTEST_TO_STRING_OVERLOAD(int short unsigned, "%u")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3730:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3730 | DOCTEST_TO_STRING_OVERLOAD(int, "%d")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3731:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3731 | DOCTEST_TO_STRING_OVERLOAD(unsigned, "%u")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3732:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3732 | DOCTEST_TO_STRING_OVERLOAD(int long, "%ld")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3733:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3733 | DOCTEST_TO_STRING_OVERLOAD(int long unsigned, "%lu")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3734:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3734 | DOCTEST_TO_STRING_OVERLOAD(int long long, "%lld")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+In file included from /Users/tail/ormpp/tests/main.cpp:3:
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3735:1: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+ 3735 | DOCTEST_TO_STRING_OVERLOAD(int long long unsigned, "%llu")
+      | ^
+/Users/tail/ormpp/thirdparty/doctest/doctest.h:3721:14: note: expanded from macro 'DOCTEST_TO_STRING_OVERLOAD'
+ 3721 |         std::sprintf(buf, fmt, in);                                                                \
+      |              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdio.h:278:1: note: 'sprintf' has been explicitly marked deprecated here
+  278 | __deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+      | ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:227:48: note: expanded from macro '__deprecated_msg'
+  227 |         #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+      |                                                       ^
+11 warnings generated.
+[ 71%] Linking CXX executable test_ormpp
+[ 71%] Built target test_ormpp
+[ 85%] Building CXX object example/CMakeFiles/ormpp_example.dir/main.cpp.o
+clang++: warning: -ldl: 'linker' input unused [-Wunused-command-line-argument]
+/Users/tail/ormpp/example/main.cpp:80:12: warning: 'delete_records' is deprecated [-Wdeprecated-declarations]
+   80 |     sqlite.delete_records<person>();
+      |            ^
+/Users/tail/ormpp/ormpp/dbng.hpp:105:23: note: 'delete_records' has been explicitly marked deprecated here
+  105 |   [[deprecated]] bool delete_records(Args &&...where_condition) {
+      |                       ^
+/Users/tail/ormpp/example/main.cpp:80:12: warning: 'delete_records<person>' is deprecated [-Wdeprecated-declarations]
+   80 |     sqlite.delete_records<person>();
+      |            ^
+/Users/tail/ormpp/ormpp/dbng.hpp:105:5: note: 'delete_records<person>' has been explicitly marked deprecated here
+  105 |   [[deprecated]] bool delete_records(Args &&...where_condition) {
+      |     ^
+/Users/tail/ormpp/example/main.cpp:83:23: warning: 'query' is deprecated [-Wdeprecated-declarations]
+   83 |     auto vec = sqlite.query<person>();
+      |                       ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:33: note: 'query' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |                                 ^
+/Users/tail/ormpp/example/main.cpp:83:23: warning: 'query<person>' is deprecated [-Wdeprecated-declarations]
+   83 |     auto vec = sqlite.query<person>();
+      |                       ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:5: note: 'query<person>' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |     ^
+/Users/tail/ormpp/example/main.cpp:90:12: warning: 'delete_records' is deprecated [-Wdeprecated-declarations]
+   90 |     sqlite.delete_records<student>();
+      |            ^
+/Users/tail/ormpp/ormpp/dbng.hpp:105:23: note: 'delete_records' has been explicitly marked deprecated here
+  105 |   [[deprecated]] bool delete_records(Args &&...where_condition) {
+      |                       ^
+/Users/tail/ormpp/example/main.cpp:90:12: warning: 'delete_records<student>' is deprecated [-Wdeprecated-declarations]
+   90 |     sqlite.delete_records<student>();
+      |            ^
+/Users/tail/ormpp/ormpp/dbng.hpp:105:5: note: 'delete_records<student>' has been explicitly marked deprecated here
+  105 |   [[deprecated]] bool delete_records(Args &&...where_condition) {
+      |     ^
+/Users/tail/ormpp/example/main.cpp:96:25: warning: 'query' is deprecated [-Wdeprecated-declarations]
+   96 |       auto vec = sqlite.query<student>("name='purecpp'", "order by age desc");
+      |                         ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:33: note: 'query' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |                                 ^
+/Users/tail/ormpp/example/main.cpp:96:25: warning: 'query<student, const char (&)[15], const char (&)[18]>' is deprecated [-Wdeprecated-declarations]
+   96 |       auto vec = sqlite.query<student>("name='purecpp'", "order by age desc");
+      |                         ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:5: note: 'query<student, const char (&)[15], const char (&)[18]>' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |     ^
+/Users/tail/ormpp/example/main.cpp:102:25: warning: 'query' is deprecated [-Wdeprecated-declarations]
+  102 |       auto vec = sqlite.query<student>("age=3", "order by id desc", "limit 1");
+      |                         ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:33: note: 'query' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |                                 ^
+/Users/tail/ormpp/example/main.cpp:102:25: warning: 'query<student, const char (&)[6], const char (&)[17], const char (&)[8]>' is deprecated [-Wdeprecated-declarations]
+  102 |       auto vec = sqlite.query<student>("age=3", "order by id desc", "limit 1");
+      |                         ^
+/Users/tail/ormpp/ormpp/dbng.hpp:113:5: note: 'query<student, const char (&)[6], const char (&)[17], const char (&)[8]>' has been explicitly marked deprecated here
+  113 |   [[deprecated]] std::vector<T> query(Args &&...args) {
+      |     ^
+10 warnings generated.
+[100%] Linking CXX executable ormpp_example
+[100%] Built target ormpp_example
